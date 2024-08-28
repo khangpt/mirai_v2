@@ -2,10 +2,11 @@ name: mirai_webview
 description: A WebView Parser for Mirai. A wrapper of `webview_flutter` package for Mirai.
 version: 0.0.2
 homepage: https://github.com/Securrency-OSS/mirai/tree/main/packages/mirai_webview
+publish_to: none
 
 environment:
-  sdk: '>=3.1.0 <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=3.3.4 <4.0.0'
+  flutter: '>=3.19.6'
 
 dependencies:
   flutter:
@@ -13,7 +14,7 @@ dependencies:
   webview_flutter: ^4.2.4
   freezed_annotation: ^2.2.0
   json_annotation: ^4.8.1
-  mirai_framework: ^0.0.1
+  mirai_framework: any
 
 dev_dependencies:
   flutter_test:

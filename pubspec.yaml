@@ -1,7 +1,8 @@
 name: mirai_workspace
 
 environment:
-  sdk: '>=3.1.0 <4.0.0'
+  sdk: '>=3.3.4 <4.0.0'
+  flutter: '>=3.19.6'
 
 dev_dependencies:
   melos: ^4.1.0
